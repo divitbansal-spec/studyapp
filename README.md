@@ -14,3 +14,9 @@ Production blueprint and Android starter architecture for **AI Study Helper – 
 
 ## Notes
 This repository currently contains the production design, implementation blueprint, and core code patterns to bootstrap the full app implementation.
+
+## GitHub Pages Troubleshooting
+If GitHub Pages still shows 404 after these files exist, verify:
+1. **Settings → Pages → Source** points to the same branch you are deploying.
+2. Source folder is either **/(root)** (uses `index.html`) or **/docs** (uses `docs/index.html`).
+3. Wait 1–3 minutes after pushing for Pages to rebuild.
